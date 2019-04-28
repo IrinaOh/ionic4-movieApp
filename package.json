@@ -1,12 +1,13 @@
 {
-  "name": "movieApp",
+  "name": "movieapp",
   "version": "0.0.1",
   "author": "Ionic Framework",
   "homepage": "https://ionicframework.com/",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "npm run build",
+    "build": "ng build",
+    "gh-pages": "ng build --base-href 'https://irinaoh.github.io/ionic4-movieApp/' --prod && npx ngh --dir=www/",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
